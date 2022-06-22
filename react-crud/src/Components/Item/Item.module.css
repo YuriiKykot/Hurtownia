@@ -1,0 +1,21 @@
+.box {
+    display: flex;
+    margin-left: 60px;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+    margin-top: 40px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #000000;
+    background: #ffffff;
+    justify-content: center;
+    text-align: center;
+}.box button {
+    background-color: rgb(255, 225, 0);
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}.box button:hover{
+    background-color: rgb(255, 255, 255);
+}
